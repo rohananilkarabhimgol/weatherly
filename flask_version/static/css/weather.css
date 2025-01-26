@@ -1,0 +1,44 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #32d3f8, #bae1eb);
+    color:  #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.weather-icon {
+    width: 100px;
+    margin: 20px auto;
+}
+
+.weather-info {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.temperature {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ccc;
+}

@@ -1,0 +1,2 @@
+# Replace 'your_api_key_here' with your actual API key from OpenWeather
+# You can get your API key by signing up at: https://openweathermap.org/api

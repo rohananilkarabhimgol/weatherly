@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather in {{City}}</h1>
+        <img src="https://openweathermap.org/img/wn/50d.png" alt="Weather Icon" class="weather-icon">
+        <div class="weather-info">
+            <h1>Weather in {{ weather.City }}, {{ weather.Country }}</h1>
+            <p>Temperature: {{ weather.Temperature }} K</p>
+            <p>Condition: {{ weather.Condition }}</p>
+            <p>Feels Like: {{ weather.Feels_like }} K</p>
+            <p>Humidity: {{ weather.Humidity }}%</p>
+            <p>Wind Speed: {{ weather.Wind_Speed }} m/s</p>
+            <p>Sunrise: {{ weather.Sunrise }}</p>
+            <p>Sunset: {{ weather.Sunset }}</p>
+        </div>
+        <div class="footer">
+            <p>Powered by OpenWeatherMap</p>
+        </div>
+    </div>
+</body>
+</html>

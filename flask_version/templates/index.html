@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Weatherly</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Weatherly</h1>
+        <p>Which city's weather would you like to search for?</p>
+        <form action="/search" method="POST">
+            <input type="text" name="city" placeholder="Enter city name" required>
+            <button type="submit">Search Weather</button>
+        </form>
+    </div>
+</body>
+</html>
